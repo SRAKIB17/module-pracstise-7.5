@@ -79,9 +79,6 @@ footer a {
   display: flex;
    
 }
- {
-    display: flex;
-}
 footer div a:hover iframe {
     display:block;
     position: absolute;
