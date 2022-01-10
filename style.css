@@ -1,4 +1,7 @@
 
+body {
+    width: 100%;
+}
 .logo1 {
     width: 30%;
     position: relative;
@@ -47,7 +50,45 @@ body {
     z-index: -1;
 }
 body:hover .mark {
-    transform: scale(10);
-    opacity: 0.5;
+    transform: scale(9);
+    opacity: 0.3;
 
+}
+footer {
+   padding: 10px;
+   background-color: lightgrey;
+    
+}
+footer > div > h2 {
+    text-align: center;
+    clear: both;
+}
+footer div  i{
+    margin-top: 10px;
+    margin-left: 2px;
+    padding: 2px;
+    position: static;
+}
+footer div i:hover {
+    background-color: rgba(163, 143, 143, 0.623);
+}
+footer a {
+    text-decoration: none;
+}
+.flex {
+  display: flex;
+   
+}
+ {
+    display: flex;
+}
+footer div a:hover iframe {
+    display:block;
+    position: absolute;
+}
+iframe {
+    display: none;
+    width: fit-content;
+    height: auto;
+    border: 1px dotted burlywood;
 }

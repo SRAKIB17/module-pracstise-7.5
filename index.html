@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="section.css">
+    <style>
+        .minus {
+            display: none;
+        }
+        nav ul li:hover .plus {
+            display: none;
+        }
+        nav ul li:hover .minus {
+            display: inline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,7 +29,7 @@
         <ul>
             <li><a href=""><i class="fa fa-home" style="font-size:24px"></i></a></li>
             <li><a href="">Blog</a></li>
-            <li >UDZ <ul class="udz">
+            <li >UDZ <i class="fa fa-plus-square-o plus"></i><i class="fa fa-minus-square-o minus"></i> <ul class="udz">
                 <li><a href="">Link - 1</a></li>
                 <li><a href="">Link - 2</a></li>
                 <li><a href="">Link - 3</a></li>
@@ -34,22 +45,35 @@
                     <input type="submit" value="search">
                 </form>
             </li>
-            <li><a href=""><i class="fa fa-youtube-play" style="font-size:24px"></i></i></a></li>
+            <li><a href=""><i class="fa fa-youtube-play" style="font-size:24px"></i></a></li>
         </ul>
     </nav>
     <section>
         <div><img src="/image/arrow_bow_PNG48.png" alt="" class="anim"> <img src="/image/29-292733_target-local-events-louisiana-bowhunter-archery-target-png.jpg" alt="" class="target">
-        <h1 class="mark">WOW 100</h1></div>
+        <h1 class="mark">Welcome Sir</h1></div>
         <h1>Welcome My site..</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolorem rem dolorum assumenda distinctio magnam, eligendi voluptas quis vel aperiam modi obcaecati sunt, itaque tempore quas id dolores. Et illo mollitia totam quas ut nemo facilis ipsum vero, sequi architecto provident nesciunt quo, dicta, repellendus accusantium? Doloremque, facere! Quasi autem exercitationem officiis repellat nam delectus voluptates sint! Mollitia officia repellendus alias accusamus distinctio, sapiente nihil consequuntur, reprehenderit iusto omnis inventore deleniti ullam magnam ipsam quo asperiores nesciunt odio. Rem molestias, id velit mollitia dolores sapiente enim cupiditate exercitationem. Voluptatibus tenetur ullam rem, totam inventore quia quos! Sint quaerat consectetur rem.</p>
     </section>
     <footer>
-        <div>
-            <p></p>
+        <div class="flex">
+            <h3>Follow:</h3>
+            <a href=""><i class="fa fa-facebook-f" style="font-size:24px"></i></a>
+            <a href=""><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+            <a href=""><i class="fa fa-twitter" style="font-size:24px"></i></a>
+            <a href=""><i class="fa fa-group" style="font-size:23px"></i><iframe src="/address.html" frameborder="0" width=""></iframe></a>
+            
         </div>
         <div>
-            
-            <p></p>
+            <a href="">
+                <h4>Link-1</h4>
+            </a><a href="">
+                <h4>Link-2</h4>
+            </a><a href="">
+                <h4>Link-3</h4>
+            </a>
+        </div>
+        <div>
+            <h2> Copyrights 2017-2022 .Rakib17 all rights reserved..</h2>
         </div>
     </footer>    
 </html>
