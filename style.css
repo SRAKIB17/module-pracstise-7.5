@@ -79,7 +79,7 @@ footer a {
   display: flex;
    
 }
-footer div a:hover iframe {
+footer div i:hover iframe {
     display:block;
     position: absolute;
 }
@@ -88,4 +88,5 @@ iframe {
     width: fit-content;
     height: auto;
     border: 1px dotted burlywood;
+    background-color: rgba(0, 255, 0, 0.144);
 }
