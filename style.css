@@ -1,0 +1,53 @@
+
+.logo1 {
+    width: 30%;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    margin-bottom: 10px;
+    
+}
+.logo2 {
+    width: 30%;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    margin-bottom: 10px;
+    z-index: -1;
+    opacity: .5;
+}
+body {
+    margin: 10px;
+    padding: 10px;
+}
+.target {
+    position: absolute;
+    right: 105px;
+    z-index: -2;
+    top: 310px;
+    width: 100px;
+    opacity: 0.5;
+}
+.anim {
+    width: 100px;
+    position: absolute;
+    transform: rotate(-90deg);
+    animation: arrow  2s ease 1s infinite normal;
+}
+@keyframes arrow {
+    0% {left: 1%;}
+    100% {left: 80%;}
+}
+.mark {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transition: all 0.3s ease-in 2s;
+    opacity: 0;
+    z-index: -1;
+}
+body:hover .mark {
+    transform: scale(10);
+    opacity: 0.5;
+
+}
