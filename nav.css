@@ -1,0 +1,53 @@
+nav {
+    background-color: rgba(128, 128, 128, 0.685);
+    width: fit-content;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+nav > ul >li {
+    margin: 10px;
+    padding: 10px;
+}
+nav li:hover {
+    background-color: lightblue;
+    color: black;
+}
+nav ul .udz {
+    display: none;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+ul ul li {
+    padding: 10px;
+}
+nav ul li:hover .udz {
+    display: block;
+    position: absolute;
+}
+nav ul .spin {
+    display: none;
+}
+nav ul li:hover .ref{
+    display: none;
+    position: relative;
+}
+nav ul li:hover .spin {
+    display: block;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul li .search {
+    display: none;
+}
+nav ul li:hover .search {
+    width: fit-content;
+    display: block;
+    position: absolute;
+    background-color: rgba(114, 107, 107, 0.267);
+    padding: 20px 2px;
+}
